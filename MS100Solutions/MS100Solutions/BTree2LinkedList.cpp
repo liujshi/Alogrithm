@@ -23,27 +23,29 @@ void VisitTree(TreeNode *root)
 }
 
 void helper(TreeNode *& head, TreeNode *& tail, TreeNode *root) {
-	TreeNode *lt, *rh;
-	if (root == NULL) {
-		head = NULL, tail = NULL;
+	TreeNode *leftTail, *rightHead;
+	if (root == nullptr)
+	{
+		head = nullptr;
+		tail = nullptr;
 		return;
 	}
-	helper(head, lt, root->left);
-	helper(rh, tail, root->right);
-	if (lt != NULL) {
-		lt->right = root;
-		root->left = lt;
+	helper(head, leftTail, root->left);
+	helper(rightHead, tail, root->right);
+	if (leftTail != nullptr)
+	{
+		leftTail->right = root;
+		root->left = leftTail;
 	}
-	else {
+	else
 		head = root;
+	if (rightHead != nullptr)
+	{
+		rightHead->left = root;
+		root->right = rightHead;
 	}
-	if (rh != NULL) {
-		root->right = rh;
-		rh->left = root;
-	}
-	else {
+	else
 		tail = root;
-	}
 }
 
 TreeNode * treeToLinkedList(TreeNode * root) {
