@@ -24,12 +24,18 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BTree2LinkedList.cpp">
+    <ClCompile Include="BTree2LinkedList_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BTree2LinkedList.h">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
