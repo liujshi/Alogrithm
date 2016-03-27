@@ -146,7 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="004_BtreeFindSumPath.h" />
-    <ClInclude Include="005_BuildHeap.h" />
+    <ClInclude Include="005_makeHeap.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

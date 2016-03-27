@@ -30,7 +30,7 @@
     <ClInclude Include="004_BtreeFindSumPath.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="005_BuildHeap.h">
+    <ClInclude Include="005_makeHeap.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>

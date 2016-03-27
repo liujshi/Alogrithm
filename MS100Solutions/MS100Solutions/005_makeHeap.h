@@ -11,20 +11,20 @@ namespace Ljs
 		}
 		for (int i = n / 2; i >= 0;--i)
 		{
-			int left_i = 2 * i + 1;
-			if (array[i] < array[left_i])
+			int left_i = 2 * i;
+			if (array[i-1] < array[left_i-1])
 				left_i++;
 			else
 			{
-				int tmp = array[i];
-				array[i] = array[left_i];
-				array[left_i] = tmp;
+				int tmp = array[i-1];
+				array[i-1] = array[left_i-1];
+				array[left_i-1] = tmp;
 			}
-			if (array[i]>array[left_i])
+			if (left_i<=n && array[i-1]>array[left_i-1])
 			{
-				int tmp = array[i];
-				array[i] = array[left_i];
-				array[left_i] = tmp;
+				int tmp = array[i-1];
+				array[i-1] = array[left_i-1];
+				array[left_i-1] = tmp;
 			}
 		}
 	}

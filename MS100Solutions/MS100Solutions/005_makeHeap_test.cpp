@@ -1,14 +1,18 @@
-#include "005_BuildHeap.h"
+#include "005_makeHeap.h"
 
 using namespace Ljs;
 
 int main()
 {
 	int arr[] = { 1, 3, 4, 5, 7, 2, 6, 8, 0 };
-	makeHeap(arr, 7);
-	for (auto e:arr)
+	for (int i = 0; i < 8; ++i)
 	{
-		printf("%d\n", e);
-	}
+		makeHeap(arr+i, 9-i);
+		for (auto e : arr)
+		{
+			printf("%d  ", e);
+		}
+		printf("\n");
+}
 	return 0;
 }
