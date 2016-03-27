@@ -145,11 +145,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="004_BtreeFindSumPath.h" />
+    <ClInclude Include="005_BuildHeap.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="004_BtreeFindSumPath_test.cpp" />
+    <ClCompile Include="005_makeHeap_test.cpp" />
     <ClCompile Include="BTree2LinkedList.h" />
     <ClCompile Include="BTree2LinkedList_test.cpp" />
     <ClCompile Include="stdafx.cpp" />

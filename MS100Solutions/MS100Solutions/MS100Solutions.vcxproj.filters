@@ -27,6 +27,12 @@
     <ClInclude Include="Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="004_BtreeFindSumPath.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="005_BuildHeap.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BTree2LinkedList.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="004_BtreeFindSumPath_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="005_makeHeap_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

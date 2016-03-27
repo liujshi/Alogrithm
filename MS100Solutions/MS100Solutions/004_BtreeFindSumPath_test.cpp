@@ -1,6 +1,8 @@
-#include "BTree2LinkedList.h"
+#include "004_BtreeFindSumPath.h"
+
 using namespace Ljs;
-int Btree2LinkedList_test()
+
+int BtreeFindSumPath_test()
 {
 	TreeNode *root = new TreeNode(40);
 	root->left = new TreeNode(20);
@@ -10,10 +12,6 @@ int Btree2LinkedList_test()
 	root->right->left = new TreeNode(50);
 	root->right->right = new TreeNode(70);
 
-	TreeNode* p = root->treeToLinkedList(root);
-	for (; p; p = p->right)
-	{
-		printf("%d\n", p->val);
-	}
+	root->printPath(root, 70);
 	return 0;
 }
