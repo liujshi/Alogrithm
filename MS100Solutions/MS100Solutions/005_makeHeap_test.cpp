@@ -1,8 +1,9 @@
+//#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 #include "005_makeHeap.h"
-
 using namespace Ljs;
 
-int main()
+int MakeHeap_test()
 {
 	int arr[] = { 1, 3, 4, 5, 7, 2, 6, 8, 0 };
 	for (int i = 0; i < 8; ++i)
@@ -15,4 +16,8 @@ int main()
 		printf("\n");
 }
 	return 0;
+}
+
+TEST_CASE("MakeHeap_test", "one") {
+	REQUIRE(MakeHeap_test() == 0);
 }

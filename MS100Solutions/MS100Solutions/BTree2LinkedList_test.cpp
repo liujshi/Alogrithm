@@ -1,3 +1,5 @@
+//#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 #include "BTree2LinkedList.h"
 using namespace Ljs;
 int Btree2LinkedList_test()
@@ -16,4 +18,8 @@ int Btree2LinkedList_test()
 		printf("%d\n", p->val);
 	}
 	return 0;
+}
+
+TEST_CASE("Btree2LinkedList_test", "one") {
+	REQUIRE(Btree2LinkedList_test() == 0);
 }

@@ -33,6 +33,9 @@
     <ClInclude Include="005_makeHeap.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="catch.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

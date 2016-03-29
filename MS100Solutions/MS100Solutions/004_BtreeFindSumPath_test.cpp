@@ -1,3 +1,5 @@
+//#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 #include "004_BtreeFindSumPath.h"
 
 using namespace Ljs;
@@ -14,4 +16,8 @@ int BtreeFindSumPath_test()
 
 	root->printPath(root, 70);
 	return 0;
+}
+
+TEST_CASE("BtreeFindSumPath_test", "one") {
+	REQUIRE(BtreeFindSumPath_test() == 0);
 }
