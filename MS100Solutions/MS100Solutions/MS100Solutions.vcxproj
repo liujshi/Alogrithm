@@ -149,15 +149,12 @@
     <ClInclude Include="005_makeHeap.h" />
     <ClInclude Include="catch.hpp" />
     <ClInclude Include="Common.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="004_BtreeFindSumPath_test.cpp" />
     <ClCompile Include="005_makeHeap_test.cpp" />
     <ClCompile Include="BTree2LinkedList.h" />
     <ClCompile Include="BTree2LinkedList_test.cpp" />
-    <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Unit_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
