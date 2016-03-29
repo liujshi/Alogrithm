@@ -1,4 +1,3 @@
-#define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "BTree2LinkedList.h"
 using namespace Ljs;

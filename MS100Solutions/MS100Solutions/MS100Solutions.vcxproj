@@ -158,6 +158,7 @@
     <ClCompile Include="BTree2LinkedList.h" />
     <ClCompile Include="BTree2LinkedList_test.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Unit_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

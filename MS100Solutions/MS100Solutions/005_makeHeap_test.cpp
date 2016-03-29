@@ -1,4 +1,3 @@
-//#define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "005_makeHeap.h"
 using namespace Ljs;
