@@ -26,8 +26,9 @@ namespace Ljs
 				{
 					for (int i = 0; i < index;++i)
 					{
-						printf("%d\n", path[i]);
+						printf("%d  ", path[i]);
 					}
+					printf("\n");
 				}
 				return;
 			}

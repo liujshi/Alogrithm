@@ -1,4 +1,4 @@
-//#define CATCH_CONFIG_MAIN
+#define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "BTree2LinkedList.h"
 using namespace Ljs;
@@ -15,8 +15,9 @@ int Btree2LinkedList_test()
 	TreeNode* p = root->treeToLinkedList(root);
 	for (; p; p = p->right)
 	{
-		printf("%d\n", p->val);
+		printf("%d  ", p->val);
 	}
+	printf("\n");
 	return 0;
 }
 
