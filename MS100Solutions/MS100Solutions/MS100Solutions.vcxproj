@@ -147,14 +147,18 @@
   <ItemGroup>
     <ClInclude Include="004_BtreeFindSumPath.h" />
     <ClInclude Include="005_makeHeap.h" />
+    <ClInclude Include="BuddySystem.h" />
     <ClInclude Include="catch.hpp" />
     <ClInclude Include="Common.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="004_BtreeFindSumPath_test.cpp" />
     <ClCompile Include="005_makeHeap_test.cpp" />
+    <ClCompile Include="008_LinkedList.h" />
+    <ClCompile Include="008_LinkedList_test.cpp" />
     <ClCompile Include="BTree2LinkedList.h" />
     <ClCompile Include="BTree2LinkedList_test.cpp" />
+    <ClCompile Include="BuddySystem_test.cpp" />
     <ClCompile Include="Unit_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

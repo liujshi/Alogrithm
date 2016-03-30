@@ -30,6 +30,9 @@
     <ClInclude Include="catch.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BuddySystem.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BTree2LinkedList_test.cpp">
@@ -45,6 +48,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Unit_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuddySystem_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="008_LinkedList_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="008_LinkedList.h">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
